@@ -12,4 +12,4 @@
 
 ## ERD Diagrams
 
-![ERD Diagrams](https://github.com/thairyo/social-mern/blob/master/server/document/ERD-Diagrams.png)
+![ERD Diagrams](https://github.com/thairyo/social-mern/blob/master/server/doc/ERD-Diagrams.png)
