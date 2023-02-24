@@ -1,13 +1,10 @@
-# FullStack Social Media App
+# FullStack Social Media App ( Backend )
 
 ## Stack
 
-- ReactJS
-- MUI
 - MongoDB (Mongoose)
 - GridFS-Storage
 - JsonWebToken
-- Redux Toolkit
 - ...
 
 ## ERD Diagrams
