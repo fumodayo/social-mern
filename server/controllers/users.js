@@ -38,10 +38,12 @@ export const addRemoveFriends = async (req, res) => {
     const user = await User.findById(id);
     const friend = await User.findById(friendId);
 
+    /** REMOVE: If User have friendId delete friendId in friend list */
     if (user.friends.includes(friendId)) {
       user.friends = user.friends.filter((id) => id !== friendId);
       friend.friends = friend.friends.filter((id) => id !== id);
     } else {
+      /** ADD: If User don't have friendId push fiendId in friend list */
       user.friends.push(friendId);
       friend.friends.push(id);
     }
